@@ -16,10 +16,10 @@ Suggests: pbkrtest (>= 0.4-4), nlme, MASS, poLCA, heplots, splines,
         ordinal, car, knitr, betareg, alr4, robustlmm
 Imports: lme4, nnet, lattice, grid, colorspace, graphics, grDevices,
         stats, survey, utils, estimability (>= 1.4.1), insight
-Description: 
-  Graphical and tabular effect displays, e.g., of interactions, for 
+Description: Graphical and tabular effect displays, e.g., of interactions, for 
   various statistical models with linear predictors.
 License: GPL (>= 2)
 URL: https://cran.r-project.org/package=effects,
-        https://www.john-fox.ca/
+        https://www.john-fox.ca/,
+        https://github.com/bprice2652/effects_repo
 VignetteBuilder: knitr
