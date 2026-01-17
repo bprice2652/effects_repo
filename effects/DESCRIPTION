@@ -22,3 +22,4 @@ Description:
 License: GPL (>= 2)
 URL: https://cran.r-project.org/package=effects,
         https://www.john-fox.ca/
+VignetteBuilder: knitr
