@@ -42,7 +42,7 @@
 \details{
 \code{Effect} function methods by default expect regression objects to provide certain quantities, including a model formula, coefficient estimates, and the variance matrix of the estimates, in standard places. \code{effSources} methods return a list of the necessary quantities if they are not in standard places.}
 
-\value{See the vignette \href{../doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package}.}
+\value{See the vignette \href{../inst/doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package}.}
 
 
 

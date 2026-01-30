@@ -61,7 +61,7 @@ predictorEffects(mod, predictors, focal.levels=50, xlevels=5, ...)
   \item{\dots}{
 Additional arguments passed to \code{\link{Effect}}.}
 
-  \item{sources}{Provides a mechanism for applying \code{predictorEffect} methods to a variety of regression models; see the vignette \href{../doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package} for an explanation.}
+  \item{sources}{Provides a mechanism for applying \code{predictorEffect} methods to a variety of regression models; see the vignette \href{../inst/doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package} for an explanation.}
 }
 
 \details{
