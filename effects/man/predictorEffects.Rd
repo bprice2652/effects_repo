@@ -12,7 +12,7 @@ Functions For Computing Predictor Effects
 }
 
 \description{
-Alternatives to the \code{Effect} and \code{allEffects} functions that use a different paradigm for conditioning in an effect display.  The user specifies one predictor, either numeric or a factor (where character and logical variables are treated as factors), for the horizontal axis of a plot, and the function determines the appropriate plot to display (which is drawn by \code{plot}). See the vignette \href{../doc/predictor-effects-gallery.pdf}{Predictor Effects Graphics Gallery} for details and examples.
+Alternatives to the \code{Effect} and \code{allEffects} functions that use a different paradigm for conditioning in an effect display.  The user specifies one predictor, either numeric or a factor (where character and logical variables are treated as factors), for the horizontal axis of a plot, and the function determines the appropriate plot to display (which is drawn by \code{plot}). See the vignette \href{https://CRAN.R-project.org/package=effects/vignettes/predictor-effects-gallery.pdf}{Predictor Effects Graphics Gallery} for details and examples.
 }
 
 \usage{
@@ -61,7 +61,7 @@ predictorEffects(mod, predictors, focal.levels=50, xlevels=5, ...)
   \item{\dots}{
 Additional arguments passed to \code{\link{Effect}}.}
 
-  \item{sources}{Provides a mechanism for applying \code{predictorEffect} methods to a variety of regression models; see the vignette \href{../inst/doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package} for an explanation.}
+  \item{sources}{Provides a mechanism for applying \code{predictorEffect} methods to a variety of regression models; see the vignette \href{https://CRAN.R-project.org/package=effects/vignettes/functions-supported-by-effects.pdf}{Regression Models Supported by the effects Package} for an explanation.}
 }
 
 \details{
@@ -87,7 +87,7 @@ S. Weisberg \email{sandy@umn.edu} and J. Fox
 }
 
 \seealso{
-\code{\link{Effect}}, \code{\link{plot.predictoreff}}, the \href{../doc/predictor-effects-gallery.pdf}{Predictor Effects Graphics Gallery} vignette, and the \href{../doc/partial-residuals.pdf}{Effect Displays with Partial Residuals} vignette.
+\code{\link{Effect}}, \code{\link{plot.predictoreff}}, the \href{https://CRAN.R-project.org/package=effects/vignettes/predictor-effects-gallery.pdf}{Predictor Effects Graphics Gallery} vignette, and the \href{https://CRAN.R-project.org/package=effects/vignettes/partial-residuals.pdf}{Effect Displays with Partial Residuals} vignette.
 }
 
 \examples{

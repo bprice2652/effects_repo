@@ -19,7 +19,7 @@
 
 \code{effect} builds the required object by specifying explicitly a focal term like \code{"a:b"} for an \code{a} by \code{b} interaction.  \code{Effect} in contrast specifies the predictors in  a term, for example \code{c("a", "b")}, rather than the term itself.  \code{Effect} is consequently more flexible and robust than \code{effect}, and will succeed with some models for which \code{effect} fails.  The \code{effect} function works by constructing a call to \code{Effect} and continues to be included in \pkg{effects} so older code that uses it will not break.
 
-The \code{Effect} and \code{effect} functions can also be used with many other models; see \code{\link{Effect.default}} and the \href{../inst/doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package} vignette.
+The \code{Effect} and \code{effect} functions can also be used with many other models; see \code{\link{Effect.default}} and the \href{https://CRAN.R-project.org/package=effects/vignettes/functions-supported-by-effects.pdf}{Regression Models Supported by the effects Package} vignette.
 
 \code{allEffects} identifies all of the high-order terms in a model and returns a list of \code{"eff"} or \code{"effpoly"} objects (i.e., an object of class \code{"efflist"}).
 
@@ -118,7 +118,7 @@ For example, for a factor \code{X} with three levels \code{a}, \code{b} and \cod
   }
 }
 
-  \item{residuals}{if \code{TRUE}, residuals for a linear or generalized linear model will be computed and saved; if \code{FALSE} (the default), residuals are suppressed. If residuals are saved, partial residuals are computed when the effect is plotted: see \code{\link{plot.eff}} and the vignette \href{../doc/partial-residuals.pdf}{Effect Displays with Partial Residuals}. This argument may also be used for mixed-effects and some other models.}
+  \item{residuals}{if \code{TRUE}, residuals for a linear or generalized linear model will be computed and saved; if \code{FALSE} (the default), residuals are suppressed. If residuals are saved, partial residuals are computed when the effect is plotted: see \code{\link{plot.eff}} and the vignette \href{https://CRAN.R-project.org/package=effects/vignettes/partial-residuals.pdf}{Effect Displays with Partial Residuals}. This argument may also be used for mixed-effects and some other models.}
   
   \item{quantiles}{quantiles at which to evaluate numeric focal predictors \emph{not} on the horizontal axis, used only when partial residuals are displayed; superseded if the \code{xlevels} argument gives specific values for a predictor.}
     
@@ -278,7 +278,7 @@ and Jangman Hong.}
     \code{\link{print.effpoly}}, \code{\link{summary.effpoly}}, \code{\link{plot.effpoly}},
     \code{\link{print.efflist}}, \code{\link{summary.efflist}},
     \code{\link{plot.efflist}}, \code{\link[lattice]{xyplot}},
-    \code{\link[lattice]{densityplot}}, and the \href{../doc/partial-residuals.pdf}{Effect Displays with Partial Residuals} and \href{../doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package} vignettes.}
+    \code{\link[lattice]{densityplot}}, and the \href{https://CRAN.R-project.org/package=effects/vignettes/predictor-effects-gallery.pdf}{Predictor Effects Graphics Gallery} and \href{https://CRAN.R-project.org/package=effects/vignettes/functions-supported-by-effects.pdf}{Regression Models Supported by the effects Package} vignettes.}
 
 \examples{
 mod.cowles <- glm(volunteer ~ sex + neuroticism*extraversion,

@@ -1,4 +1,4 @@
-# last modified 2025-07-21 by J. Fox
+# last modified 2025-07-29 by J. Fox
 
 import(carData)
 
@@ -44,7 +44,8 @@ S3method(Effect, multinom)
 S3method(Effect, polr)
 S3method(Effect, merMod)
 
-export(predictorEffect.default,predictorEffects.default)
+export(predictorEffect.default,predictorEffects.default, 
+       Effect.default, effect.default, allEffects.default)
 S3method(effSources,betareg)
 S3method(effSources,clm)
 S3method(effSources,clm2) 

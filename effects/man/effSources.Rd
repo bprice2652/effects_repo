@@ -12,7 +12,7 @@
 
 \title{Functions For Constructing Effect Displays for Many Modeling Paradigms}
 
-\description{The \pkg{effects} package can be used with many different classes of regression models beyond the basic models described in the \code{\link{Effect}} help page.  The \code{effSources} function is used to tell an \code{Effect} method where to find the information to compute effects.  Details are given in the vignette \href{../doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package}.  Unless you are trying to extend \pkg{effects} to a different class of regression model, you will have no use for this function.  
+\description{The \pkg{effects} package can be used with many different classes of regression models beyond the basic models described in the \code{\link{Effect}} help page.  The \code{effSources} function is used to tell an \code{Effect} method where to find the information to compute effects.  Details are given in the vignette \href{https://CRAN.R-project.org/package=effects/vignettes/functions-supported-by-effects.pdf}{Regression Models Supported by the effects Package}.  Unless you are trying to extend \pkg{effects} to a different class of regression model, you will have no use for this function.  
 }
 
 \usage{
@@ -42,7 +42,7 @@
 \details{
 \code{Effect} function methods by default expect regression objects to provide certain quantities, including a model formula, coefficient estimates, and the variance matrix of the estimates, in standard places. \code{effSources} methods return a list of the necessary quantities if they are not in standard places.}
 
-\value{See the vignette \href{../inst/doc/methods-supported-by-effects.pdf}{Regression Models Supported by the effects Package}.}
+\value{See the vignette \href{https://CRAN.R-project.org/package=effects/vignettes/functions-supported-by-effects.pdf}{Regression Models Supported by the effects Package}.}
 
 
 

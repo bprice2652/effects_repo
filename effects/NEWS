@@ -1,6 +1,10 @@
 Version 4.2-5
 
   o Updaing maintainer and updated information
+  
+Version 4.2-4
+
+  o Restore export of Effect.default, effect.default, and allEffects.default to avoid breaking code in other packages.  
 
 Version 4.2-3
 
